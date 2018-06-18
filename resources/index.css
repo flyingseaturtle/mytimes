@@ -37,6 +37,30 @@ align-items: center;
   padding-left: 3px;
 }
 
+.main {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
 .left {
-  
+  display: flex;
+  flex-direction: column;
+  width: 630px;
+  margin-right: 32px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-right: 32px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin-right: 32px;
 }
